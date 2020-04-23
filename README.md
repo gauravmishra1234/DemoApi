@@ -1,8 +1,8 @@
 # DemoApi
 demo in Asp.netcore 3.0 and Angular 8
 First run this command for create the DataBase: create database DemoDB 
-after creating DataBase execute PreDeployment.sql from DB folder. 
-after completion of pre script then execute PostDeployment.sql 
+after creating DataBase execute PreDeployment.sql copy from line 20 to 58. 
+after completion of pre script then execute PostDeployment.sql copy from line 62 to 278. 
 open api solution in visualstudio 2019 make sure asp.net core 3.0 is installed 
 change Data Source name in appsetting.json file "DBConnection": "Data Source=4895PV2\SQLEXPRESS;Initial Catalog=DemoDB;Integrated Security=True" 
 First build and run the api solution pressing F5 button. 
